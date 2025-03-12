@@ -11,6 +11,7 @@ class Hero():
 
     def is_alive(self):
         if self.health > 0:
+            print(f"Здоровье {self.name} равно {self.health}")
             return True
         return False
 
