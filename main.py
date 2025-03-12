@@ -28,6 +28,10 @@ class Game():
                 self.player.attack(self.computer)
 
             n = n+1
+        if self.computer.is_alive():
+            print("Игрок Computer  победил")
+        else:
+            print("Игрок Player  победил")
 
 game = Game()
 game.start()
